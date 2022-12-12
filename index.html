@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="scripts/jQueryv3.6.1.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>  -->
+    <script  src="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/cb320406cb.js" crossorigin="anonymous"></script>
+    <style>#main-menu{display: none;}</style>
+    <meta charset="UTF-8">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Humber Current</title>
+</head>
+<body>
+    <header>   
+        <div id="navContainer">
+            <span id="menu-toggle"><img src="images/menu.svg" width="38" height="38" alt="nav menu button"></span> 
+
+            <nav id="main-menu" aria-label="Main navigation">
+                    
+                    <img id="humberLogoWhite" src="images/Group19.svg" width="200" height="38" alt="humber logo, says faculty of media and creative arts">
+                    <img id="closeWindowBtn" src="images/Circle_Remove1.svg" width="38" height="38" alt="humber logo, says faculty of media and creative arts">
+                    
+                    
+                   
+                    <h3 id="filmActing" class="navTitle"><a href="#">Film-Acting & Media Production </a><i class="chevRight"></i></h3>
+                    
+                   
+                    <h3 class="navTitle"><a href="#">Interaction Design </a><i class="chevRight"></i></h3>
+                    
+                 
+                    <h3  id="writingListTitle" class="navTitle"><a href="#">Journalists & Writers </a><i class="chevRight3"></i><i class="chevDown3"></i></h3>
+                   
+                   
+                    <ul id="writingCourses">
+                        <li><a href="#">Creative Writing Grad Certificate</a></li>
+                        <li><a href="#">Bachelor of Journalism</a></li>
+                        <li><a href="#">Comedy: Writing and Performance</a></li>
+                        <li><a href="#">Journalism Grad Certificate</a></li>
+                        <li><a href="#">Journalism (Advanced Diploma)</a></li>
+                        <li><a href="#">Media Foundation</a></li>
+                        <li><a href="#">Television Writing and Producing</a></li>
+                        <li><a href="#">Creative Book Publishing</a></li>
+                    </ul> 
+                    <h3 class="navTitle"><a href="#">Music & Fine Arts </a><i class="chevRight"></i></h3>
+                   
+                    <h3 class="navTitle"><a href="#">Social & Media Communications </a><i class="chevRight"></i></h3>
+                   
+                    <h3 class="navTitle"><a href="#">Accelerated Certificates </a><i class="chevRight"></i></h3>        
+                </nav>
+    
+
+
+           <img id="humberLogo" src="images/humber_logo.svg" width="200" height="38" alt="humber logo, says faculty of media and creative arts">
+           <img id="searchMenu" src="images/Search.svg" width="38" height="38" alt="search magnifying glass image">
+           <!-- <img id="searchMenuOpen" src="images/searchMenuOpen.svg" width="266px" height="38px" alt="search bar opened"> -->
+           <form method="GET">
+            <button type="submit" class="search-button">
+                <img src="images/magnefyingGlass.svg" alt="the search icon is a magnefying glass">
+              </button>
+            <input id="searchMenuOpen" placeholder="Search" type="text" name="searchkey" autocomplete="off">
+           </form>
+        </div>  
+       
+    </header>
+
+    <main id="gradient">
+        <div id="heroTop">
+            <button id="loginBtn">Login</button>
+            <h1>Creative Writing Graduate Certificate</h1>
+        </div>
+        <form name="yearSelect" id="yearSelector" action="#">
+        <label for="whatYear">Humber Past:</label>
+		<select id="whatYear" name="f_Year">
+			<option value="XX">Year</option>
+			<option value="2022">2022</option>
+            <option value="2022">2021</option>
+            <option value="2022">2020</option>
+            <option value="2023">2023</option>
+		</select>
+        </form>
+
+        <div id="container">
+            
+            <div class="item item1">
+                <img class="portrait" src="images/avatar-male_white.svg" alt="male avatar" width="248" height="248">
+            </div>
+            <div class="item item2">
+                <h2>Michael Kissoon</h2>
+                <div>
+                    <span class="tags">Copy Writing</span>
+                    <span class="tags">Novel Writing</span>
+                </div>
+                <p>Michael Kissoon grew up in Northern Ireland and studied in England, graduating with a joint honours degree in English and philosophy, followed by a master's in critical theory. During his academic journey, he was bitten by the film creation bug and began a career in filmmaking, working on a variety of film and television productions...<a href="#">more</a></p>
+                <span>
+                    <img class="social" src="images/LinkedIn.png" alt="linked in link" width="30" height="30">
+                </span>
+                <span>
+                    <img class="social" src="images/square-twitter.svg" alt="twitter link" width="30" height="30">
+                </span>
+            </div>
+            
+            <div class="item item3">
+               <img class="portrait" src="images/avatar-female.svg"  alt="female avatar" width="248" height="248">
+            </div>
+            <div class="item item4">
+                <h2>Caitlin Oleson</h2>
+                <div>
+                    <span class="tags">Copy Writing</span>
+                    <span class="tags">Novel Writing</span>
+                </div>
+                <p>Caitlin Oleson grew up in Manitoba where she began her career as a writer working as a teen correspondent for The Brandon Sun and What’s Hers magazine. She then moved to Ottawa to attend Carleton University where she volunteered as a reporter for The Resin student newspaper and as a blogger for the Department of Undergraduate Recruitment...<a href="#">more</a></p>
+                <span>
+                    <img class="social" src="images/square-twitter.svg" alt="twitter link" width="30" height="30">
+                </span>
+            </div>
+           
+            <div class="item item5">
+                <img class="portrait" src="images/avatar-male.svg"  alt="male avatar" width="248" height="248">
+            </div>
+            <div class="item item6">
+                <h2>Arjun Singh</h2>
+                <div>
+                    <span class="tags">Copy Writing</span>
+                    <span class="tags">Novel Writing</span>
+                </div>
+                <p>Arjun Singh is a graduating student at Humber College in the creative writing (fiction) program. Born and raised in India, Arjun came to Canada at the age of 12. He attended Western University to earn a bachelor's degree in English literature and political science along with a certificate in writing studies. Having explored...<a href="#">more</a></p>
+                <span>
+                    <img class="social" src="images/LinkedIn.png" alt="linked in link" width="30" height="30">
+                </span>
+                <span>
+                    <img class="social" src="images/square-twitter.svg" alt="twitter link" width="30" height="30">
+                </span>
+                <span>
+                    <img class="social" src="images/square-instagram.svg" alt="instagram link" width="30" height="30">
+                </span>
+            </div>
+            
+            <div class="item item7">
+                <img class="portrait" src="images/avatar-female.svg" alt="female avatar" width="248" height="248">
+            </div>
+            <div class="item item8">    
+                <h2>Jennifer Simpson</h2>
+                <div>
+                    <span class="tags">Copy Writing</span>
+                    <span class="tags">Novel Writing</span>
+                </div>
+                <p>Jennifer Simpson is a writer, performing artist, internationally published songwriter, and former model. She has performed for many years, in places such as Toronto, New York, Montreal, Ottawa, London (UK), Prague, Beijing, Hong Kong, Miami, Greece, and Taiwan. She is an epilepsy ambassador, disability advocate...<a href="#">more</a></p>
+                <span>
+                    <img class="social" src="images/square-twitter.svg" alt="twitter link" width="30" height="30">
+                </span>
+            </div>
+            
+            <div class="item item9">
+                <img class="portrait" src="images/avatar-female.svg" alt="male avatar" width="248" height="248">
+            </div>   
+            <div class="item item10">
+                <h2>Krista Candela</h2>
+                <div>
+                    <span class="tags">Copy Writing</span>
+                    <span class="tags">Novel Writing</span>
+                </div>
+                <p>Krista L. Candela is a graduate of Queen's University. She has a diploma from St. Lawrence College in autism and behavioural science and worked in children's mental health for years. During that time, she took courses in the Queen's University creative writing program. One of her short stories was published in...<a href="#">more</a></p>
+                <span>
+                    <img class="social" src="images/LinkedIn.png" alt="linked in link" width="30" height="30">
+                </span>
+                <span>
+                    <img class="social" src="images/square-twitter.svg" alt="twitter link" width="30" height="30">
+                </span>
+            </div>
+            
+            <div class="item item11">
+                <img class="portrait" src="images/avatar-female.svg" alt="male avatar" width="248" height="248">
+            </div>
+            <div class="item item12">
+                <h2>Rebecca Clyburn</h2>
+                <div>
+                    <span class="tags">Copy Writing</span>
+                    <span class="tags">Novel Writing</span>
+                </div>
+                <p>Rebecca Clyburn was born and raised in Cape Breton, Nova Scotia, and lives with her family in Amsterdam, The Netherlands. Rebecca has taught creative writing at The Writer's School and the International Writers Collective. She has been writing as long as she can remember and, at the formative young age...<a href="#">more</a></p>
+                <span>
+                  <img class="social" src="images/LinkedIn.png" alt="linked in link" width="30" height="30">
+                </span>
+                <span>
+                    <img class="social" src="images/square-twitter.svg" alt="twitter link" width="30" height="30">
+                </span>
+                <span>
+                    <img class="social" src="images/square-instagram.svg" alt="instagram link" width="30" height="30">
+                </span>
+            </div>  
+        </div>
+        <div id="bottomPagenator">
+           <a href="#"><img class="pageLeft" src="images/pageLeft.svg" alt="arrow to previous page"></a>
+            <img class="pageCount" src="images/Frame68.svg" alt="page navigation by page number">
+           <a href="#"><img class="pageRight" src="images/pageRight.svg" alt="arrow to next page"></a>
+        </div>
+
+
+    </main>
+    <footer>
+
+         <div id="footerContainer">
+           
+            <div id="footList1" class="listTitle listTitle1"><a href="#">Film-Acting & Media Production</a>
+                <ul>
+                  <li><a href="#">Bachelor of Film & Media Production</a></li>
+                  <li><a href="#">Film & TV Production Advanced Diploma</a></li>
+                  <li><a href="#">Radio Broadcasting Diploma</a></li>
+                  <li><a href="#">Radio & Media Production Grad Certificate</a></li>
+                  <li><a href="#">Theatre - Performance</a></li>
+                </ul>
+            </div>
+            <div class="listTitle listTitle2"><a href="#">Journalists & Writers</a>
+                <ul>
+                  <li><a href="#">Creative Writing Grad Certificate</a></li>
+                  <li><a href="#">Bachelor of Journalism</a></li>
+                  <li><a href="#">Comedy: Writing and Performance</a></li>
+                  <li><a href="#">Journalism Grad Certificate</a></li>
+                  <li><a href="#">Journalism (Advanced Diploma)</a></li>
+                  <li><a href="#">Media Foundation</a></li>
+                  <li><a href="#">Television Writing and Producing</a></li>
+                  <li><a href="#">Creative Book Publishing</a></li>
+                </ul>
+              </div>
+            <div id="footList2" class="listTitle listTitle3"><a href="#">Interaction Design</a>
+                 <ul>
+                  <li><a href="#">Animation - 3D</a></li>
+                  <li><a href="#">Bachelor of Design</a></li>
+                  <li><a href="#">Game Programming</a></li>
+                  <li><a href="#">Graphic Design</a></li>
+                  <li><a href="#">Multimedia Design & Development</a></li>
+                  <li><a href="#">User Experience (UX) Design</a></li>
+                </ul>
+            </div>
+            <div class="listTitle listTitle4"><a href="#">Music & Fine Arts</a>
+                <ul>
+                 <li><a href="#">Arts Administration and Cultural Management</a></li>
+                 <li><a href="#">Bachelor of Music</a></li>
+                 <li><a href="#">Music Composition</a></li>
+                 <li><a href="#">Music, Introduction to Commercial Jazz Music</a></li>
+                 <li><a href="#">Photography Diploma</a></li>
+                 <li><a href="#">Visual & Digital Arts</a></li>
+                 <li><a href="#">Music Business</a></li>
+               </ul>
+           </div>
+            <div id="footList3" class="listTitle listTitle5"><a href="#">Social & Media Communications</a>
+                <ul>
+                 <li><a href="#">Advertising Account Management</a></li>
+                 <li><a href="#">Advertising - Art Direction</a></li>
+                 <li><a href="#">Advertising & Graphic Design</a></li>
+                 <li><a href="#">Advertising Copywriting</a></li>
+                 <li><a href="#">Bachelor of Public Relations</a></li>
+                 <li><a href="#">Digital Communications</a></li>
+                 <li><a href="#">Media Communications</a></li>
+                 <li><a href="#">Public Relations (Advanced Diploma)</a></li>
+                 <li><a href="#">Public Relations (Graduate Certificate)</a></li>
+                </ul> 
+            </div>
+                
+            <div class="listTitle listTitle6"><a href="#">Accelerated Certificates</a>
+                 <ul>
+                  <li><a href="#">3D Modelling & Visual Effects Production</a></li>
+                  <li><a href="#">Graphic Design for Print & Web</a></li>
+                  <li><a href="#">Web Design & Development</a></li>
+                </ul>
+            </div>    
+            
+          </div>
+        
+          <div id="footMedia">
+            <img id="humberLogo2" src="images/humber_logo.svg" width="200" height="38" alt="humber logo, says faculty of media and creative arts">
+            <p>Humber College campuses are located on the treaty lands and traditional territory of the Mississaugas of the Credit and homeland of Anishinaabe, Haudenosaunee, and Wendat peoples.</p>
+            <div id="bottomSocialMedia">
+            <span>
+               <img class="social" src="images/TwitterSquareFilled.svg" alt="twitter link" width="30" height="30">
+            </span>
+            <span>
+               <img class="social" src="images/LinkedinFilled.svg" alt="linkedin link" width="30" height="30">
+            </span>
+            <span>
+             <img class="social" src="images/InstagramFilled.svg" alt="instagram link" width="30" height="30">
+            </span>
+            <span>
+               <img class="social" src="images/FacebookFilled.svg" alt="facebook link" width="30" height="30">
+            </span>
+            </div>
+         </div>  
+         
+    </footer>
+</body>
+</html>
