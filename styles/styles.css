@@ -395,13 +395,13 @@ grid-area:item12;
 #footerContainer {
     margin-bottom: 90px;
     position: relative;
-    right: -18px;
+    right: 0px;
     padding: 0;
     margin-top: 24px;
     display:grid;
     /* row-gap: px; */
     justify-content:right ;
-    grid-template-columns:repeat(3, 438px);
+    grid-template-columns:repeat(3, 420px);
     grid-template-rows:repeat(1, 320px);
     grid-template-areas:  "item1 item2 item3";                               
   }
