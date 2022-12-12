@@ -395,7 +395,7 @@ grid-area:item12;
 #footerContainer {
     margin-bottom: 90px;
     position: relative;
-    right: 0;
+    right: -18px;
     padding: 0;
     margin-top: 24px;
     display:grid;
@@ -408,8 +408,8 @@ grid-area:item12;
 
   #footMedia {
     position: relative;
-    top: -740px;
-    left: 50px;
+    top: -747px;
+    left: 30px;
     display: block;
     width: 200px;
     height: 600px;
