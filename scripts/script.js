@@ -10,14 +10,17 @@ $('.chevDown3').hide();
 $('#writingCourses').hide();
 
 $('#searchMenu').on('click',function(){
-    $('.search-button').toggle('slide');
-    $('#searchMenuOpen').toggle('slide');  
-    $(this).toggle('slide'); 
+    $('.search-button').toggle(300);
+    $('#searchMenuOpen').toggle(300);  
+    $(this).toggle(300); 
+    
 });
+
 $('.search-button').on('click',function(){
-    $('#searchMenu').toggle('slide');
-    $('#searchMenuOpen').toggle('slide');  
-    $(this).toggle('slide'); 
+    $('#searchMenu').toggle(300);
+    $('#searchMenuOpen').toggle(300);  
+    $(this).hide(300); 
+    
 });
 
 
